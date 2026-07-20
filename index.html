@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Anshuman Goyal — Senior Software Engineer with 5+ years building high-performance React/TypeScript frontends and Node.js backends. IIT Kanpur CSE.">
+  <meta name="author" content="Anshuman Goyal">
+  <meta name="theme-color" content="#050505">
+  <meta property="og:title" content="Anshuman Goyal — Senior Software Engineer">
+  <meta property="og:description" content="5+ years shipping React, TypeScript, and Node.js systems. IIT Kanpur. Open to opportunities.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://goyalansh.github.io/ANSH-Portfolio/">
+  <title>Anshuman Goyal — Senior Software Engineer</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="favicon-180.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="top" class="top-anchor" tabindex="-1"></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+  <div class="cursor" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+  <canvas id="fx-canvas" aria-hidden="true"></canvas>
+  <div class="spotlight" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo magnetic" href="#top" data-scroll-top aria-label="Anshuman Goyal home">AG</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#impact">Impact</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a class="btn btn-ghost magnetic" href="resume/Resume.pdf" target="_blank" rel="noopener">Resume</a>
+        <a class="btn btn-primary magnetic" href="mailto:goyalanshuman249@gmail.com">Hire me</a>
+      </div>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" hidden>
+      <a href="#impact">Impact</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+      <a href="resume/Resume.pdf" target="_blank" rel="noopener">Resume</a>
+      <a href="mailto:goyalanshuman249@gmail.com">Hire me</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-name">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="bg-motion" aria-hidden="true">
+        <span class="orb orb-1"></span>
+        <span class="orb orb-2"></span>
+        <span class="orb orb-3"></span>
+        <span class="ring ring-1"></span>
+        <span class="ring ring-2"></span>
+        <span class="scan"></span>
+      </div>
+      <div class="hero-grid">
+        <div class="hero-copy intro-card reveal">
+          <p class="hero-kicker">
+            <span class="kicker-line"></span>
+            Available for senior frontend / full-stack roles
+          </p>
+          <h1 id="hero-name" class="hero-name" data-scramble>
+            <span class="line reveal-line"><span class="line-inner word">Anshuman</span></span>
+            <span class="line reveal-line"><span class="line-inner word italic">Goyal</span></span>
+          </h1>
+          <p class="hero-role">Senior Software Engineer</p>
+          <p class="hero-lede">
+            5+ years building high-performance React/TypeScript frontends and Node.js backends—
+            Redis, BullMQ, Docker, and JWT-secured APIs—focused on scalable systems and measurable product impact.
+          </p>
+          <div class="hero-meta">
+            <span>Gurgaon, India</span>
+            <span>IIT Kanpur · CSE</span>
+            <span>JEE Advanced AIR 249</span>
+          </div>
+          <div class="hero-ctas">
+            <a class="btn btn-primary magnetic" href="resume/Resume.pdf" target="_blank" rel="noopener">Download resume</a>
+            <a class="btn btn-secondary magnetic" href="mailto:goyalanshuman249@gmail.com">Email me</a>
+            <a class="btn btn-ghost magnetic" href="https://www.linkedin.com/in/anshuman-goyal-0b270b11a/" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <figure class="hero-photo tilt-card">
+            <div class="photo-frame">
+              <img src="images/my.jpg" alt="Portrait of Anshuman Goyal" width="720" height="900" fetchpriority="high">
+            </div>
+            <div class="photo-meta">
+              <span>5+ yrs</span>
+              <span>IITK</span>
+            </div>
+          </figure>
+        </div>
+      </div>
+      <div class="scroll-cue" aria-hidden="true">
+        <span>Scroll</span>
+        <i></i>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>React</span><span>TypeScript</span><span>Node.js</span><span>Redis</span><span>BullMQ</span><span>Docker</span><span>PostgreSQL</span><span>MongoDB</span>
+        <span>React</span><span>TypeScript</span><span>Node.js</span><span>Redis</span><span>BullMQ</span><span>Docker</span><span>PostgreSQL</span><span>MongoDB</span>
+      </div>
+    </div>
+
+    <section class="impact" id="impact" aria-labelledby="impact-title">
+      <div class="section-inner panel">
+        <div class="section-head impact-head">
+          <h2 id="impact-title" class="reveal">Proven results, not fluff</h2>
+          <p class="reveal">Six outcomes from production work—each one tied to a real product or platform decision.</p>
+        </div>
+        <ul class="metrics">
+          <li class="metric reveal" data-count="30">
+            <p class="metric-label">Analytics dashboards</p>
+            <strong><span class="count">—</span><span class="metric-unit">%</span></strong>
+            <p class="metric-desc">Faster on 10k+ row datasets using React-Window list virtualization—less memory churn, less main-thread blocking.</p>
+          </li>
+          <li class="metric reveal" data-count="40">
+            <p class="metric-label">Squad velocity</p>
+            <strong><span class="count">—</span><span class="metric-unit">%</span></strong>
+            <p class="metric-desc">Faster delivery after a shared component library hit 75% reuse across tables, forms, and auth-gated routes.</p>
+          </li>
+          <li class="metric reveal" data-count="20">
+            <p class="metric-label">Product adoption</p>
+            <strong><span class="count">—</span><span class="metric-unit">%</span></strong>
+            <p class="metric-desc">Growth from tenant-scoped RBAC across API and UI—selective sharing without cross-tenant data leaks.</p>
+          </li>
+          <li class="metric reveal" data-count="2.5" data-decimals="1" data-prefix="~">
+            <p class="metric-label">Initial load time</p>
+            <strong><span class="metric-prefix">~</span><span class="count">—</span><span class="metric-unit">s</span></strong>
+            <p class="metric-desc">Cut from high-traffic React bundles via route-level code splitting and production build optimization.</p>
+          </li>
+          <li class="metric reveal" data-count="15">
+            <p class="metric-label">Form completion</p>
+            <strong><span class="count">—</span><span class="metric-unit">%</span></strong>
+            <p class="metric-desc">Higher completion on multi-step JWT-secured workflows with schema-validated APIs.</p>
+          </li>
+          <li class="metric reveal" data-count="249" data-prefix="AIR ">
+            <p class="metric-label">JEE Advanced rank</p>
+            <strong><span class="metric-prefix">AIR </span><span class="count">—</span></strong>
+            <p class="metric-desc">Top 0.02% among 1.5M aspirants—then B.Tech CSE at IIT Kanpur.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="experience" id="experience" aria-labelledby="experience-title">
+      <div class="section-inner panel">
+        <div class="section-head">
+          <h2 id="experience-title" class="reveal">Where the work happened</h2>
+          <p class="reveal">Full-stack delivery with a frontend systems focus—performance, platform reuse, and reliable APIs.</p>
+        </div>
+
+        <ol class="timeline">
+          <li class="job reveal">
+            <div class="job-meta">
+              <p class="job-company">Param Hi-Tech Private Limited</p>
+              <p class="job-role">Freelance · Senior Software Engineer</p>
+              <p class="job-dates">Feb 2026 – Jun 2026</p>
+            </div>
+            <ul class="job-points">
+              <li>Owned end-to-end delivery of a React + Node.js/Express product: JWT auth, schema-validated APIs, and multi-step workflows that improved form completion by <strong>15%</strong>.</li>
+              <li>Shipped a Docker Compose stack (API, worker, Redis, client) with reproducible local/prod-like environments; Redis as shared cache + message broker.</li>
+              <li>Introduced Redis response caching and sliding-window rate limits on auth routes—shielding Postgres from hot-path load and blocking brute-force logins.</li>
+              <li>Standardized PR quality with CodeRabbit as a first-pass reviewer so human reviews focused on design, with faster merges and fewer regressions.</li>
+            </ul>
+          </li>
+
+          <li class="job reveal">
+            <div class="job-meta">
+              <p class="job-company">GobbleCube</p>
+              <p class="job-role">Software Engineer II</p>
+              <p class="job-dates">Jul 2025 – Dec 2025</p>
+            </div>
+            <ul class="job-points">
+              <li>Improved analytics dashboard performance by <strong>30%</strong> on 10k+ row datasets via React-Window list virtualization—cutting memory churn and main-thread blocking.</li>
+              <li>Designed tenant-scoped RBAC across API consumers and UI surfaces, enabling selective data sharing and driving <strong>20%</strong> adoption growth.</li>
+              <li>Built a config-driven frontend platform (service layer, shared hooks, feature modules) that unlocked parallel feature delivery across product surfaces.</li>
+            </ul>
+          </li>
+
+          <li class="job reveal">
+            <div class="job-meta">
+              <p class="job-company">Trential <span class="muted">(previously Crubn)</span></p>
+              <p class="job-role">Software Engineer II</p>
+              <p class="job-dates">Jun 2022 – Mar 2025</p>
+            </div>
+            <ul class="job-points">
+              <li>Led a shared component library to <strong>75%</strong> reuse across modules—standardizing tables, forms, and auth-gated routes—and accelerated squad velocity by <strong>40%</strong>.</li>
+              <li>Integrated Node.js/Express + MongoDB verification APIs with idempotent retries and client-side cache strategies, reducing flaky upstream failures in production.</li>
+              <li>Offloaded email + cron maintenance to BullMQ workers on Redis so request latency stays low; repeatable jobs survive API restarts.</li>
+            </ul>
+          </li>
+
+          <li class="job reveal">
+            <div class="job-meta">
+              <p class="job-company">Mindlance</p>
+              <p class="job-role">Software Engineer</p>
+              <p class="job-dates">Jan 2020 – Mar 2022</p>
+            </div>
+            <ul class="job-points">
+              <li>Cut initial bundle load by <strong>~2.5s</strong> via route-level code splitting and production build optimization on a high-traffic React application.</li>
+              <li>Hardened third-party API integrations with exponential-backoff retries, request deduplication, and cache-aware fetching.</li>
+              <li>Built reusable, regulated multi-step workflow modules (auth gates, server-validated forms, state-machine transitions) adopted across client-facing products.</li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="skills" id="skills" aria-labelledby="skills-title">
+      <div class="section-inner panel">
+        <div class="section-head">
+          <h2 id="skills-title" class="reveal">Technologies</h2>
+          <p class="reveal">Tools I use to ship reliable product surfaces—not a skill-bar wishlist.</p>
+        </div>
+        <div class="skill-groups">
+          <div class="skill-group reveal">
+            <h3>Frontend</h3>
+            <ul class="skill-tags">
+              <li>React.js</li>
+              <li>TypeScript</li>
+              <li>JavaScript ES6</li>
+              <li>Redux</li>
+              <li>HTML5 / CSS</li>
+              <li>Vite</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Backend</h3>
+            <ul class="skill-tags">
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>PostgreSQL</li>
+              <li>MongoDB</li>
+              <li>Redis</li>
+              <li>BullMQ</li>
+              <li>JWT / REST APIs</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>DevOps & tooling</h3>
+            <ul class="skill-tags">
+              <li>Docker</li>
+              <li>Docker Compose</li>
+              <li>Git</li>
+              <li>GitHub Actions</li>
+              <li>Chrome DevTools</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="education" id="education" aria-labelledby="education-title">
+      <div class="section-inner panel">
+        <div class="section-head">
+          <h2 id="education-title" class="reveal">Education & achievements</h2>
+        </div>
+        <div class="edu-grid">
+          <article class="edu-block reveal">
+            <p class="edu-label">Education</p>
+            <h3>Indian Institute of Technology Kanpur</h3>
+            <p>Bachelor of Technology in Computer Science</p>
+            <p class="edu-date">May 2019</p>
+          </article>
+          <article class="edu-block reveal">
+            <p class="edu-label">Scholastic</p>
+            <h3>JEE Advanced AIR 249</h3>
+            <p>General category — top 0.02% among 1.5 million aspirants nationwide.</p>
+          </article>
+          <article class="edu-block reveal">
+            <p class="edu-label">Hackathon</p>
+            <h3>First Prize · HackerRank @ Techkriti ’17</h3>
+            <p>Most technically challenging project among 34 teams at IIT Kanpur.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="section-inner panel contact-inner">
+        <div class="contact-copy reveal">
+          <h2 id="contact-title">Let’s build something that ships.</h2>
+          <p>
+            Open to senior software engineering roles where frontend systems, API reliability,
+            and measurable product outcomes matter. Based in Gurgaon — remote-friendly.
+          </p>
+          <div class="contact-links">
+            <a class="btn btn-primary magnetic" href="mailto:goyalanshuman249@gmail.com">goyalanshuman249@gmail.com</a>
+            <a class="btn btn-secondary magnetic" href="tel:+918853145503">+91 88531 45503</a>
+          </div>
+        </div>
+        <ul class="social-list reveal">
+          <li>
+            <a href="https://www.linkedin.com/in/anshuman-goyal-0b270b11a/" target="_blank" rel="noopener">
+              <span>LinkedIn</span>
+              <span class="social-hint">Profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/AnshXCode" target="_blank" rel="noopener">
+              <span>GitHub</span>
+              <span class="social-hint">AnshXCode</span>
+            </a>
+          </li>
+          <li>
+            <a href="resume/Resume.pdf" target="_blank" rel="noopener">
+              <span>Resume</span>
+              <span class="social-hint">PDF</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://goyalansh.github.io/ANSH-Portfolio/">
+              <span>Portfolio</span>
+              <span class="social-hint">This site</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>© <span id="year">2026</span> Anshuman Goyal</p>
+      <a href="#top" data-scroll-top>Back to top</a>
+    </div>
+  </footer>
+
+  <script src="index.js" defer></script>
+</body>
+</html>
